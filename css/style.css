@@ -6,15 +6,29 @@ margin: 0;
 padding: 0;
 }
 
+
+.container{
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 1000px;
+    max-width:100%;
+
+}
 /* # Header */
 .upper-header{
-    line-height: 100px;
-    vertical-align: middle;
+    max-width: 800px;
+   background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+   padding-top: 20px;
+    background-size: 500px;
+    display: flex;
+    align-items: center;
 
 }
  .logo-image{
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: auto;
     background-color: #32CD32;
     border-radius: 8px;
     margin-right: 10px;
@@ -22,9 +36,10 @@ padding: 0;
  .logo-title {
     margin: 0;
    font-size: 24px;
+   font-weight: bold; 
  }
  .buttons {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .btn {
     padding: 8px 16px;
@@ -40,4 +55,86 @@ padding: 0;
 .btn-secondary {
     background-color: #f1f1f1;
     color: #bab6b6;
+}
+ /* main*/
+ .task-section {
+    background-color: white;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.task-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task-list li {
+    
+    align-items: center;
+    margin-bottom: 10px;
+   
+
+}
+
+.task-status {
+    font-size: 20px;
+    margin-right: 10px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align:middle;
+    
+}
+
+.completed {
+    color: green;
+}
+
+.incomplete {
+    color: red;
+}
+
+.pending {
+    color: orange;
+}
+
+.label {
+    background-color: #e0e0e0;
+    color: white;
+    border-radius: 12px;
+    padding: 2px 8px;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.editorial {
+    background-color: #007bff;
+}
+
+.q1-goals {
+    background-color: #6f42c1;
+}
+
+.recruiting {
+    background-color: #28a745;
+}
+
+.mobile {
+    background-color: #ffc107;
+}
+
+.website {
+    background-color: #e83e8c;
+}
+
+.sales {
+    background-color: #20c997;
 }

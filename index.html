@@ -3,11 +3,12 @@
     <head>
         <meta charset="UFT-8">
         <meta name="Yiyi Brigitte Macalupu Flores" content="width=device-width, initial-scale=1.0">
-        <title>Tooboolist</title>
+        <title>Toboolist</title>
         <link rel="icon" href="./img/Logo.png">
         <link rel="stylesheet" href="./css/style.css">
    </head>
    <body>
+    
     <!-- il logo e il titolo -->
     <header>
         <div class="upper-header">
@@ -15,14 +16,39 @@
         <h1 class=" logo- title">toboolist</h1>
         </div>
        </header>
-    <!--pulsanti per aggiungere task e sezioni-->
+       <div  class="container">
+        <section class="task-section">
+    <!--pulsanti per aggiungere task-->
        <div class="buttons">
            <button class=" btn-primary">Add Task</button>
            <button class=" btn-secondary">Add Section</button>
        </div>
-       
-    
-
+    </section>
+       <main>
+        <section class="task-section">
+            <h2>New Task</h2>
+            <ul class="task-list">
+                <li><span class="task-status completed">&#10003;</span> Quarterly Newsletter <span class="label editorial">Editorial</span></li>
+            </ul>
+              
+            <h2>Today</h2>
+            <ul class="task-list">
+                <li><span class="task-status completed">&#10003;</span> Recruiting blog post <span class="label editorial">Editorial</span></li>
+                <li><span class="task-status completed">&#10003;</span> Mobile app launch <span class="label q1-goals">Q1 Goals</span></li>
+                <li><span class="task-status incomplete">&#10008;</span> Interview John H. <span class="label recruiting">Recruiting</span></li>
+                <li><span class="task-status pending">&#10003;</span> Summit update to mobile storefronts <span class="label mobile">Mobile</span></li>
+            </ul>
+        
+            <h2>Upcoming</h2>
+            <ul class="task-list">
+                <li><span class="task-status incomplete">&#10008;</span> Schedule meeting with Alex</li>
+                <li><span class="task-status completed">&#10003;</span> Homepage refresh <span class="label website">Website</span></li>
+                <li><span class="task-status pending">&#10003;</span> Onboard new Sales team members <span class="label sales">Sales</span></li>
+                <li><span class="task-status completed">&#10003;</span> Review editorial calendar <span class="label editorial">Editorial</span></li>
+            </ul>
+        </section>
+    </main>
+    </div>
    </body>
 
 </html>
